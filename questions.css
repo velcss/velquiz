@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  .form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.75);
+    width: 85%;
+    overflow: hidden;
+  }
+  .quiz-header{
+    padding: 1rem;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: pointer;
+  }
+  button{
+    background-color: yellow;
+    border: none;
+    padding: 12px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px 1px yellow;
+    margin-bottom: 15px;
+    transition: .20s ease-in;
+    font-family: 'poppins';
+    font-weight: 900;
+  }
+
+  .submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit a {
+    text-decoration: none;
+  }
+
+  button:hover{
+    background-color: #fbff2c;
+  }
+  button:focus{
+    outline: none;
+    background-color: #44b927;
+    box-shadow: 0px 0px 10px 1px #44b927;
+    transform: scale(0.95);
+  }
+
+  #reload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: 130px;
+  }
+
+
+ @media (width > 319px) {
+    .form {
+        width: 85%;
+        font-size: 10px;
+    }
+
+    label {
+      font-size: 13px;
+    }
+}
+@media (width > 500px) {
+    .form {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    label {
+      font-size: 16px;
+    }
+}
+
+@media (width > 840px) {
+    .form {
+        width: 45%;
+        font-size: 10px;
+    }
+}
+
+@media (width > 1000px) {
+    .form {
+        width: 35%;
+        font-size: 15px;
+    }
+}

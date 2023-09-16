@@ -4,6 +4,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
 }
 
 .wrapper-main {
@@ -12,9 +14,7 @@ body {
 
 .form {
     background-color: white;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
     position: absolute;
     border-radius: 20px;
     font-family: 'poppins';
@@ -34,7 +34,7 @@ body {
     font-size: 16px;
     text-align: center;
     font-weight: 900;
-    color: rgb(88, 88, 88);
+    color: dimgrey;
 }
 
 .form-selection {
@@ -67,18 +67,21 @@ body {
 #html {
     border: 2px solid orangered;
     background-color: orangered;
+    box-shadow: 0px 0px 10px 1px orangered;
     color: white;
 }
 
 #css {
     border: 2px solid rgb(0, 128, 248);
     background-color: rgb(0, 128, 248);
+    box-shadow: 0px 0px 10px 1px rgb(0, 128, 248);
     color: white;
 }
 
 #javascript {
     border: 2px solid rgb(255, 238, 0);
     background-color: rgb(255, 238, 0);
+    box-shadow: 0px 0px 10px 1px rgb(255, 238, 0);
     color: white;
 }
 
@@ -86,18 +89,21 @@ body {
     border: 2px solid orangered;
     background-color: transparent;
     color: orangered;
+    transform: scale(0.95);
 }
 
 #css:hover {
     border: 2px solid rgb(0, 128, 248);
     background-color: transparent;
     color: rgb(0, 128, 248);
+    transform: scale(0.95);
 }
 
 #javascript:hover {
     border: 2px solid rgb(255, 238, 0);
     background-color: transparent;
     color: rgb(255, 238, 0);
+    transform: scale(0.95);
 }
 
 /* MOBILE */

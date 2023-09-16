@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'poppins';
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+}
+
+.wrapper-main {
+    width: 100%;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+    position: absolute;
+    border-radius: 20px;
+    font-family: 'poppins';
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    font-size: 8px;
+    transform: translate(-50% , -50%);
+}
+
+.form-selection button {
+    margin: 10px;
+    width: 100px;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    transition: .20s ease-in;
+}
+
+#option1 {
+    background-color: rgb(0, 255, 42);
+    color: white;
+    font-family: 'poppins';
+    box-shadow: 0px 0px 10px 1px rgb(0, 255, 42);
+}
+
+#option2 {
+    background-color: rgb(255, 38, 0);
+    color: white;
+    font-family: 'poppins';
+    box-shadow: 0px 0px 10px 1px rgb(255, 38, 0);
+}
+
+#option1:hover {
+    transform: scale(0.95);
+}
+
+#option2:hover {
+    transform: scale(0.95);
+}
+
+/* MOBILE */
+
+@media (width > 500px) {
+    .form {
+        width: 60%;
+        font-size: 10px;
+    }
+}
+
+@media (width > 840px) {
+    .form {
+        width: 45%;
+        font-size: 10px;
+    }
+}
+
+@media (width > 1000px) {
+    .form {
+        width: 35%;
+    }
+
+}
