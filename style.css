@@ -14,7 +14,7 @@ body {
 
 .form {
     background-color: white;
-    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
     position: absolute;
     border-radius: 20px;
     font-family: 'poppins';
@@ -67,21 +67,21 @@ body {
 #html {
     border: 2px solid orangered;
     background-color: orangered;
-    box-shadow: 0px 0px 10px 1px orangered;
+    box-shadow: 0px 0px 7px 1px orangered;
     color: white;
 }
 
 #css {
     border: 2px solid rgb(0, 128, 248);
     background-color: rgb(0, 128, 248);
-    box-shadow: 0px 0px 10px 1px rgb(0, 128, 248);
+    box-shadow: 0px 0px 7px 1px rgb(0, 128, 248);
     color: white;
 }
 
 #javascript {
     border: 2px solid rgb(255, 238, 0);
     background-color: rgb(255, 238, 0);
-    box-shadow: 0px 0px 10px 1px rgb(255, 238, 0);
+    box-shadow: 0px 0px 7px 1px rgb(255, 238, 0);
     color: white;
 }
 
