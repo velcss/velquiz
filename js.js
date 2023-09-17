@@ -69,7 +69,7 @@ const quizData = [
         a: "while (i <= 10)",
         b: "while i = 1 to 10",
         c: "while (i <= 10; i++)",
-        d: "color-text",
+        d: "-",
         correct: "c",
     },
     {
