@@ -209,7 +209,7 @@
       transition: .20s ease-in;
     }
   
-    .ans-con:focus {
+    .ans-con:focus-within {
       padding: 8px;
       border-radius: 4px;
       color: rgb(255, 255, 255);
