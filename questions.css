@@ -92,6 +92,7 @@
     padding: 8px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
     cursor: pointer;
     border: 1px solid black;
     transition: .20s ease-in;
@@ -120,11 +121,11 @@
  @media (width > 319px) {
     .form {
         width: 85%;
-        font-size: 9px;
+        font-size: 9.3px;
     }
 
     label {
-      font-size: 12.5px;
+      font-size: 12.8px;
     }
 
     .ans-con {
@@ -133,8 +134,10 @@
       cursor: pointer;
       background-color: transparent;
       box-shadow: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border: 1px solid black;
-      transform: scale(0.99)
       transition: .20s ease-in;
     }
   
@@ -145,6 +148,7 @@
       cursor: pointer;
       background-color: rgb(255, 208, 0);
       box-shadow: none;
+      transform: scale(0.99);
       border-radius: 10px;
       border: 1px solid black;
     }
@@ -152,12 +156,12 @@
     .ans-con:hover {
       background-color: rgb(255, 208, 0);
     }
-  
-}
+  }
+
 @media (width > 500px) {
     .form {
         width: 60%;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     label {
@@ -173,13 +177,14 @@
       transition: .20s ease-in;
     }
   
-    .ans-con:focus {
+    .ans-con:focus-within {
       padding: 8px;
       border-radius: 4px;
       color: rgb(255, 255, 255);
       cursor: pointer;
       box-shadow: none;
       border-radius: 10px;
+      transform: scale(0.99);
       border: 1px solid black;
     }
 
@@ -212,6 +217,7 @@
       background-color: none;
       box-shadow: none;
       border-radius: 10px;
+      transform: scale(0.99);
       border: 1px solid black;
     }
 
@@ -244,7 +250,7 @@
     cursor: pointer;
     box-shadow: none;
     border-radius: 10px;
-    transform: scale(0.99);
+    transform: scale(0.97);
     border: 1px solid black;
   }
 }
