@@ -163,6 +163,7 @@ body {
         background-color: transparent;
         border: none;
         cursor: pointer;
+        font-size: 16px;
         transition: .20s ease-in;
     }
 }

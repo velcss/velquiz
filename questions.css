@@ -43,9 +43,7 @@
     font-size: 1.2rem;
     margin: 1rem 0;
   }
-  ul li label{
-    cursor: pointer;
-  }
+
   button{
     border: none;
     padding: 12px;
@@ -104,7 +102,6 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    cursor: pointer;
     border: 1px solid black;
     transition: .20s ease-in;
     box-shadow: 0 0 3px 1px #3a3a3a inset;
@@ -119,7 +116,6 @@
     border-radius: 4px;
     color: white;
     background-color: rgb(255, 208, 0);
-    cursor: pointer;
     box-shadow: none;
     border-radius: 10px;
     border: 1px solid black;
@@ -139,7 +135,6 @@
 
     .ans-con {
       border-radius: 10px;
-      cursor: pointer;
       background-color: transparent;
       box-shadow: none;
       display: flex;
@@ -152,7 +147,6 @@
     .ans-con:focus-within {
       border-radius: 4px;
       color: rgb(255, 255, 255);
-      cursor: pointer;
       background-color: rgb(255, 208, 0);
       box-shadow: none;
       transform: scale(0.98);
@@ -177,7 +171,6 @@
     
     .ans-con {
       border-radius: 10px;
-      cursor: pointer;
       box-shadow: none;
       border: 1px solid black;
       transition: .20s ease-in;
@@ -187,7 +180,6 @@
     .ans-con input:focus-within {
       border-radius: 4px;
       color: rgb(255, 255, 255);
-      cursor: pointer;
       box-shadow: none;
       border-radius: 10px;
       transform: scale(0.98);
@@ -207,7 +199,6 @@
 
     .ans-con {
       border-radius: 10px;
-      cursor: pointer;
       box-shadow: none;
       border: 1px solid black;
       background-color: none;
@@ -217,7 +208,6 @@
     .ans-con:focus-within {
       border-radius: 4px;
       color: rgb(255, 255, 255);
-      cursor: pointer;
       background-color: none;
       box-shadow: none;
       border-radius: 10px;
@@ -232,7 +222,7 @@
 
 @media (width > 1000px) {
     .form {
-        width: 38%;
+        width: 40%;
         font-size: 14px;
     }
 
@@ -249,7 +239,6 @@
   .ans-con:focus-within {
     color: white;
     background-color: rgb(255, 208, 0);
-    cursor: pointer;
     border-radius: 10px;
     transform: scale(0.98);
   }
