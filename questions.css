@@ -88,6 +88,11 @@
   label {
     width: 100%;
   }
+
+  .ans-con input {
+    opacity: 0;
+  }
+
   .ans-con {
     padding: 8px;
     border-radius: 10px;
@@ -112,7 +117,7 @@
     cursor: pointer;
     box-shadow: none;
     border-radius: 10px;
-    transform: scale(0.97);
+    transform: scale(0.85);
     border: 1px solid black;
   }
 
@@ -167,7 +172,7 @@
     label {
       font-size:17.5px;
     }
-
+    
     .ans-con {
       padding: 8px;
       border-radius: 10px;
@@ -176,8 +181,9 @@
       border: 1px solid black;
       transition: .20s ease-in;
     }
+
   
-    .ans-con:focus-within {
+    .ans-con input:focus-within {
       padding: 8px;
       border-radius: 4px;
       color: rgb(255, 255, 255);
@@ -250,7 +256,7 @@
     cursor: pointer;
     box-shadow: none;
     border-radius: 10px;
-    transform: scale(0.97);
+    transform: scale(0.99);
     border: 1px solid black;
   }
 }
